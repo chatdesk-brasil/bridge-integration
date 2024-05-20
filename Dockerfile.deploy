@@ -1,0 +1,5 @@
+FROM botpress/server:latest
+ADD . /botpress
+ADD . /data
+WORKDIR /botpress
+CMD ["./bp"]
